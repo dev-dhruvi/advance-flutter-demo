@@ -3,6 +3,7 @@ import 'package:demo/task_screen/animation/clock_loader/clock_loader_design.dart
 import 'package:demo/task_screen/animation/counter_animation/counter_widget.dart';
 import 'package:flutter/material.dart';
 
+import 'road_map_animation/roadmap_custom_paint.dart';
 import 'widget/anime_grid_view_item.dart';
 
 class AnimationHomeScreen extends StatelessWidget {
@@ -30,6 +31,12 @@ class AnimationHomeScreen extends StatelessWidget {
                 title: "Clock Loader",
                 onTap: () {
                   CommonNavigator.navigateTo(context, className: const ClockLoader());
+                },
+              ),
+              AnimeGridviewItem(
+                title: "Road Map",
+                onTap: () {
+                  CommonNavigator.navigateTo(context, className: const RoadmapScreen());
                 },
               ),
             ],

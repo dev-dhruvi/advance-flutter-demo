@@ -1,7 +1,5 @@
 import 'package:demo/core/constant/screen_util.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'counter_model.dart';
 import 'dart:math' as math;
 
 class WrongAnswer extends StatefulWidget {
